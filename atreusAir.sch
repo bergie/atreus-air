@@ -1,0 +1,1390 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
+LIBS:usb-c
+LIBS:feather_bluefruit_le
+LIBS:apa120-2020
+LIBS:atreusAir-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 7800 750  0    60   Input ~ 0
+ROW0
+$Comp
+L SW_Push_45deg SW17
+U 1 1 5B892081
+P 8300 1150
+F 0 "SW17" H 8420 1190 50  0000 L CNN
+F 1 "Push" H 8300 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 8300 1150 50  0001 C CNN
+F 3 "" H 8300 1150 50  0000 C CNN
+	1    8300 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW20
+U 1 1 5B8920A8
+P 8950 1150
+F 0 "SW20" H 9070 1190 50  0000 L CNN
+F 1 "Push" H 8950 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 8950 1150 50  0001 C CNN
+F 3 "" H 8950 1150 50  0000 C CNN
+	1    8950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW23
+U 1 1 5B8920C3
+P 9600 1150
+F 0 "SW23" H 9720 1190 50  0000 L CNN
+F 1 "Push" H 9600 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 9600 1150 50  0001 C CNN
+F 3 "" H 9600 1150 50  0000 C CNN
+	1    9600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW27
+U 1 1 5B8920E0
+P 10250 1150
+F 0 "SW27" H 10370 1190 50  0000 L CNN
+F 1 "Push" H 10250 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 10250 1150 50  0001 C CNN
+F 3 "" H 10250 1150 50  0000 C CNN
+	1    10250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW31
+U 1 1 5B8921AA
+P 10900 1150
+F 0 "SW31" H 11020 1190 50  0000 L CNN
+F 1 "Push" H 10900 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 10900 1150 50  0001 C CNN
+F 3 "" H 10900 1150 50  0000 C CNN
+	1    10900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D16
+U 1 1 5B8921EB
+P 8200 900
+F 0 "D16" H 8200 1000 50  0000 C CNN
+F 1 "D" H 8200 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 8200 900 50  0001 C CNN
+F 3 "" H 8200 900 50  0000 C CNN
+	1    8200 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D19
+U 1 1 5B8925DA
+P 8850 900
+F 0 "D19" H 8850 1000 50  0000 C CNN
+F 1 "D" H 8850 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 8850 900 50  0001 C CNN
+F 3 "" H 8850 900 50  0000 C CNN
+	1    8850 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D22
+U 1 1 5B892628
+P 9500 900
+F 0 "D22" H 9500 1000 50  0000 C CNN
+F 1 "D" H 9500 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 9500 900 50  0001 C CNN
+F 3 "" H 9500 900 50  0000 C CNN
+	1    9500 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D26
+U 1 1 5B892675
+P 10150 900
+F 0 "D26" H 10150 1000 50  0000 C CNN
+F 1 "D" H 10150 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 10150 900 50  0001 C CNN
+F 3 "" H 10150 900 50  0000 C CNN
+	1    10150 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D30
+U 1 1 5B8926C5
+P 10800 900
+F 0 "D30" H 10800 1000 50  0000 C CNN
+F 1 "D" H 10800 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 10800 900 50  0001 C CNN
+F 3 "" H 10800 900 50  0000 C CNN
+	1    10800 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 750  10800 750 
+Connection ~ 8200 750 
+Connection ~ 8850 750 
+Connection ~ 9500 750 
+Connection ~ 10150 750 
+Text GLabel 8400 1500 3    60   Output ~ 0
+COL6
+Text GLabel 9050 1500 3    60   Output ~ 0
+COL7
+Text GLabel 9700 1500 3    60   Output ~ 0
+COL8
+Text GLabel 10350 1500 3    60   Output ~ 0
+COL9
+Text GLabel 11000 1500 3    60   Output ~ 0
+COL10
+Wire Wire Line
+	11000 1250 11000 1500
+Wire Wire Line
+	10350 1250 10350 1500
+Wire Wire Line
+	9700 1250 9700 1500
+Wire Wire Line
+	9050 1250 9050 1500
+Wire Wire Line
+	8400 1250 8400 1500
+Text GLabel 4100 750  0    60   Input ~ 0
+ROW0
+$Comp
+L SW_Push_45deg SW2
+U 1 1 5B893167
+P 4600 1150
+F 0 "SW2" H 4720 1190 50  0000 L CNN
+F 1 "Push" H 4600 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 4600 1150 50  0001 C CNN
+F 3 "" H 4600 1150 50  0000 C CNN
+	1    4600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW5
+U 1 1 5B89316D
+P 5250 1150
+F 0 "SW5" H 5370 1190 50  0000 L CNN
+F 1 "Push" H 5250 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 5250 1150 50  0001 C CNN
+F 3 "" H 5250 1150 50  0000 C CNN
+	1    5250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW8
+U 1 1 5B893173
+P 5900 1150
+F 0 "SW8" H 6020 1190 50  0000 L CNN
+F 1 "Push" H 5900 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 5900 1150 50  0001 C CNN
+F 3 "" H 5900 1150 50  0000 C CNN
+	1    5900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW11
+U 1 1 5B893179
+P 6550 1150
+F 0 "SW11" H 6670 1190 50  0000 L CNN
+F 1 "Push" H 6550 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 6550 1150 50  0001 C CNN
+F 3 "" H 6550 1150 50  0000 C CNN
+	1    6550 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW14
+U 1 1 5B89317F
+P 7200 1150
+F 0 "SW14" H 7320 1190 50  0000 L CNN
+F 1 "Push" H 7200 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 7200 1150 50  0001 C CNN
+F 3 "" H 7200 1150 50  0000 C CNN
+	1    7200 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 5B893185
+P 4500 900
+F 0 "D1" H 4500 1000 50  0000 C CNN
+F 1 "D" H 4500 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 4500 900 50  0001 C CNN
+F 3 "" H 4500 900 50  0000 C CNN
+	1    4500 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D4
+U 1 1 5B89318B
+P 5150 900
+F 0 "D4" H 5150 1000 50  0000 C CNN
+F 1 "D" H 5150 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 5150 900 50  0001 C CNN
+F 3 "" H 5150 900 50  0000 C CNN
+	1    5150 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D7
+U 1 1 5B893191
+P 5800 900
+F 0 "D7" H 5800 1000 50  0000 C CNN
+F 1 "D" H 5800 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 5800 900 50  0001 C CNN
+F 3 "" H 5800 900 50  0000 C CNN
+	1    5800 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D10
+U 1 1 5B893197
+P 6450 900
+F 0 "D10" H 6450 1000 50  0000 C CNN
+F 1 "D" H 6450 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 6450 900 50  0001 C CNN
+F 3 "" H 6450 900 50  0000 C CNN
+	1    6450 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D13
+U 1 1 5B89319D
+P 7100 900
+F 0 "D13" H 7100 1000 50  0000 C CNN
+F 1 "D" H 7100 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 7100 900 50  0001 C CNN
+F 3 "" H 7100 900 50  0000 C CNN
+	1    7100 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 750  7100 750 
+Connection ~ 4500 750 
+Connection ~ 5150 750 
+Connection ~ 5800 750 
+Connection ~ 6450 750 
+Text GLabel 4700 1500 3    60   Output ~ 0
+COL1
+Text GLabel 5350 1500 3    60   Output ~ 0
+COL2
+Text GLabel 6000 1500 3    60   Output ~ 0
+COL3
+Text GLabel 6650 1500 3    60   Output ~ 0
+COL4
+Text GLabel 7300 1500 3    60   Output ~ 0
+COL5
+Wire Wire Line
+	7300 1250 7300 1500
+Wire Wire Line
+	6650 1250 6650 1500
+Wire Wire Line
+	6000 1250 6000 1500
+Wire Wire Line
+	5350 1250 5350 1500
+Wire Wire Line
+	4700 1250 4700 1500
+Text GLabel 7800 2100 0    60   Input ~ 0
+ROW1
+$Comp
+L SW_Push_45deg SW18
+U 1 1 5B893CD5
+P 8300 2500
+F 0 "SW18" H 8420 2540 50  0000 L CNN
+F 1 "Push" H 8300 2350 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 8300 2500 50  0001 C CNN
+F 3 "" H 8300 2500 50  0000 C CNN
+	1    8300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW21
+U 1 1 5B893CDB
+P 8950 2500
+F 0 "SW21" H 9070 2540 50  0000 L CNN
+F 1 "Push" H 8950 2350 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 8950 2500 50  0001 C CNN
+F 3 "" H 8950 2500 50  0000 C CNN
+	1    8950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW24
+U 1 1 5B893CE1
+P 9600 2500
+F 0 "SW24" H 9720 2540 50  0000 L CNN
+F 1 "Push" H 9600 2350 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 9600 2500 50  0001 C CNN
+F 3 "" H 9600 2500 50  0000 C CNN
+	1    9600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW28
+U 1 1 5B893CE7
+P 10250 2500
+F 0 "SW28" H 10370 2540 50  0000 L CNN
+F 1 "Push" H 10250 2350 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 10250 2500 50  0001 C CNN
+F 3 "" H 10250 2500 50  0000 C CNN
+	1    10250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW32
+U 1 1 5B893CED
+P 10900 2500
+F 0 "SW32" H 11020 2540 50  0000 L CNN
+F 1 "Push" H 10900 2350 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 10900 2500 50  0001 C CNN
+F 3 "" H 10900 2500 50  0000 C CNN
+	1    10900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D17
+U 1 1 5B893CF3
+P 8200 2250
+F 0 "D17" H 8200 2350 50  0000 C CNN
+F 1 "D" H 8200 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 8200 2250 50  0001 C CNN
+F 3 "" H 8200 2250 50  0000 C CNN
+	1    8200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D20
+U 1 1 5B893CF9
+P 8850 2250
+F 0 "D20" H 8850 2350 50  0000 C CNN
+F 1 "D" H 8850 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 8850 2250 50  0001 C CNN
+F 3 "" H 8850 2250 50  0000 C CNN
+	1    8850 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D23
+U 1 1 5B893CFF
+P 9500 2250
+F 0 "D23" H 9500 2350 50  0000 C CNN
+F 1 "D" H 9500 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 9500 2250 50  0001 C CNN
+F 3 "" H 9500 2250 50  0000 C CNN
+	1    9500 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D27
+U 1 1 5B893D05
+P 10150 2250
+F 0 "D27" H 10150 2350 50  0000 C CNN
+F 1 "D" H 10150 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 10150 2250 50  0001 C CNN
+F 3 "" H 10150 2250 50  0000 C CNN
+	1    10150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D31
+U 1 1 5B893D0B
+P 10800 2250
+F 0 "D31" H 10800 2350 50  0000 C CNN
+F 1 "D" H 10800 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 10800 2250 50  0001 C CNN
+F 3 "" H 10800 2250 50  0000 C CNN
+	1    10800 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 2100 10800 2100
+Connection ~ 8200 2100
+Connection ~ 8850 2100
+Connection ~ 9500 2100
+Connection ~ 10150 2100
+Text GLabel 8400 2850 3    60   Output ~ 0
+COL6
+Text GLabel 9050 2850 3    60   Output ~ 0
+COL7
+Text GLabel 9700 2850 3    60   Output ~ 0
+COL8
+Text GLabel 10350 2850 3    60   Output ~ 0
+COL9
+Text GLabel 11000 2850 3    60   Output ~ 0
+COL10
+Wire Wire Line
+	11000 2600 11000 2850
+Wire Wire Line
+	10350 2600 10350 2850
+Wire Wire Line
+	9700 2600 9700 2850
+Wire Wire Line
+	9050 2600 9050 2850
+Wire Wire Line
+	8400 2600 8400 2850
+Text GLabel 4100 2100 0    60   Input ~ 0
+ROW1
+$Comp
+L SW_Push_45deg SW3
+U 1 1 5B893D21
+P 4600 2500
+F 0 "SW3" H 4720 2540 50  0000 L CNN
+F 1 "Push" H 4600 2350 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 4600 2500 50  0001 C CNN
+F 3 "" H 4600 2500 50  0000 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW6
+U 1 1 5B893D27
+P 5250 2500
+F 0 "SW6" H 5370 2540 50  0000 L CNN
+F 1 "Push" H 5250 2350 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 5250 2500 50  0001 C CNN
+F 3 "" H 5250 2500 50  0000 C CNN
+	1    5250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW9
+U 1 1 5B893D2D
+P 5900 2500
+F 0 "SW9" H 6020 2540 50  0000 L CNN
+F 1 "Push" H 5900 2350 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 5900 2500 50  0001 C CNN
+F 3 "" H 5900 2500 50  0000 C CNN
+	1    5900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW12
+U 1 1 5B893D33
+P 6550 2500
+F 0 "SW12" H 6670 2540 50  0000 L CNN
+F 1 "Push" H 6550 2350 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 6550 2500 50  0001 C CNN
+F 3 "" H 6550 2500 50  0000 C CNN
+	1    6550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW15
+U 1 1 5B893D39
+P 7200 2500
+F 0 "SW15" H 7320 2540 50  0000 L CNN
+F 1 "Push" H 7200 2350 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 7200 2500 50  0001 C CNN
+F 3 "" H 7200 2500 50  0000 C CNN
+	1    7200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D2
+U 1 1 5B893D3F
+P 4500 2250
+F 0 "D2" H 4500 2350 50  0000 C CNN
+F 1 "D" H 4500 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 4500 2250 50  0001 C CNN
+F 3 "" H 4500 2250 50  0000 C CNN
+	1    4500 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D5
+U 1 1 5B893D45
+P 5150 2250
+F 0 "D5" H 5150 2350 50  0000 C CNN
+F 1 "D" H 5150 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 5150 2250 50  0001 C CNN
+F 3 "" H 5150 2250 50  0000 C CNN
+	1    5150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D8
+U 1 1 5B893D4B
+P 5800 2250
+F 0 "D8" H 5800 2350 50  0000 C CNN
+F 1 "D" H 5800 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 5800 2250 50  0001 C CNN
+F 3 "" H 5800 2250 50  0000 C CNN
+	1    5800 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D11
+U 1 1 5B893D51
+P 6450 2250
+F 0 "D11" H 6450 2350 50  0000 C CNN
+F 1 "D" H 6450 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 6450 2250 50  0001 C CNN
+F 3 "" H 6450 2250 50  0000 C CNN
+	1    6450 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D14
+U 1 1 5B893D57
+P 7100 2250
+F 0 "D14" H 7100 2350 50  0000 C CNN
+F 1 "D" H 7100 2150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 7100 2250 50  0001 C CNN
+F 3 "" H 7100 2250 50  0000 C CNN
+	1    7100 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 2100 7100 2100
+Connection ~ 4500 2100
+Connection ~ 5150 2100
+Connection ~ 5800 2100
+Connection ~ 6450 2100
+Text GLabel 4700 2850 3    60   Output ~ 0
+COL1
+Text GLabel 5350 2850 3    60   Output ~ 0
+COL2
+Text GLabel 6000 2850 3    60   Output ~ 0
+COL3
+Text GLabel 6650 2850 3    60   Output ~ 0
+COL4
+Text GLabel 7300 2850 3    60   Output ~ 0
+COL5
+Wire Wire Line
+	7300 2600 7300 2850
+Wire Wire Line
+	6650 2600 6650 2850
+Wire Wire Line
+	6000 2600 6000 2850
+Wire Wire Line
+	5350 2600 5350 2850
+Wire Wire Line
+	4700 2600 4700 2850
+Text GLabel 7800 3450 0    60   Input ~ 0
+ROW2
+$Comp
+L SW_Push_45deg SW19
+U 1 1 5B89460A
+P 8300 3850
+F 0 "SW19" H 8420 3890 50  0000 L CNN
+F 1 "Push" H 8300 3700 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 8300 3850 50  0001 C CNN
+F 3 "" H 8300 3850 50  0000 C CNN
+	1    8300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW22
+U 1 1 5B894610
+P 8950 3850
+F 0 "SW22" H 9070 3890 50  0000 L CNN
+F 1 "Push" H 8950 3700 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 8950 3850 50  0001 C CNN
+F 3 "" H 8950 3850 50  0000 C CNN
+	1    8950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW25
+U 1 1 5B894616
+P 9600 3850
+F 0 "SW25" H 9720 3890 50  0000 L CNN
+F 1 "Push" H 9600 3700 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 9600 3850 50  0001 C CNN
+F 3 "" H 9600 3850 50  0000 C CNN
+	1    9600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW29
+U 1 1 5B89461C
+P 10250 3850
+F 0 "SW29" H 10370 3890 50  0000 L CNN
+F 1 "Push" H 10250 3700 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 10250 3850 50  0001 C CNN
+F 3 "" H 10250 3850 50  0000 C CNN
+	1    10250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW33
+U 1 1 5B894622
+P 10900 3850
+F 0 "SW33" H 11020 3890 50  0000 L CNN
+F 1 "Push" H 10900 3700 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 10900 3850 50  0001 C CNN
+F 3 "" H 10900 3850 50  0000 C CNN
+	1    10900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D18
+U 1 1 5B894628
+P 8200 3600
+F 0 "D18" H 8200 3700 50  0000 C CNN
+F 1 "D" H 8200 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 8200 3600 50  0001 C CNN
+F 3 "" H 8200 3600 50  0000 C CNN
+	1    8200 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D21
+U 1 1 5B89462E
+P 8850 3600
+F 0 "D21" H 8850 3700 50  0000 C CNN
+F 1 "D" H 8850 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 8850 3600 50  0001 C CNN
+F 3 "" H 8850 3600 50  0000 C CNN
+	1    8850 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D24
+U 1 1 5B894634
+P 9500 3600
+F 0 "D24" H 9500 3700 50  0000 C CNN
+F 1 "D" H 9500 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 9500 3600 50  0001 C CNN
+F 3 "" H 9500 3600 50  0000 C CNN
+	1    9500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D28
+U 1 1 5B89463A
+P 10150 3600
+F 0 "D28" H 10150 3700 50  0000 C CNN
+F 1 "D" H 10150 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 10150 3600 50  0001 C CNN
+F 3 "" H 10150 3600 50  0000 C CNN
+	1    10150 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D32
+U 1 1 5B894640
+P 10800 3600
+F 0 "D32" H 10800 3700 50  0000 C CNN
+F 1 "D" H 10800 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 10800 3600 50  0001 C CNN
+F 3 "" H 10800 3600 50  0000 C CNN
+	1    10800 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 3450 10800 3450
+Connection ~ 8200 3450
+Connection ~ 8850 3450
+Connection ~ 9500 3450
+Connection ~ 10150 3450
+Text GLabel 8400 4200 3    60   Output ~ 0
+COL6
+Text GLabel 9050 4200 3    60   Output ~ 0
+COL7
+Text GLabel 9700 4200 3    60   Output ~ 0
+COL8
+Text GLabel 10350 4200 3    60   Output ~ 0
+COL9
+Wire Wire Line
+	11000 3950 11000 4200
+Wire Wire Line
+	10350 3950 10350 4200
+Wire Wire Line
+	9700 3950 9700 4200
+Wire Wire Line
+	9050 3950 9050 4200
+Wire Wire Line
+	8400 3950 8400 4200
+Text GLabel 4100 3450 0    60   Input ~ 0
+ROW2
+$Comp
+L SW_Push_45deg SW4
+U 1 1 5B894656
+P 4600 3850
+F 0 "SW4" H 4720 3890 50  0000 L CNN
+F 1 "Push" H 4600 3700 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 4600 3850 50  0001 C CNN
+F 3 "" H 4600 3850 50  0000 C CNN
+	1    4600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW7
+U 1 1 5B89465C
+P 5250 3850
+F 0 "SW7" H 5370 3890 50  0000 L CNN
+F 1 "Push" H 5250 3700 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 5250 3850 50  0001 C CNN
+F 3 "" H 5250 3850 50  0000 C CNN
+	1    5250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW10
+U 1 1 5B894662
+P 5900 3850
+F 0 "SW10" H 6020 3890 50  0000 L CNN
+F 1 "Push" H 5900 3700 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 5900 3850 50  0001 C CNN
+F 3 "" H 5900 3850 50  0000 C CNN
+	1    5900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW13
+U 1 1 5B894668
+P 6550 3850
+F 0 "SW13" H 6670 3890 50  0000 L CNN
+F 1 "Push" H 6550 3700 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 6550 3850 50  0001 C CNN
+F 3 "" H 6550 3850 50  0000 C CNN
+	1    6550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW16
+U 1 1 5B89466E
+P 7200 3850
+F 0 "SW16" H 7320 3890 50  0000 L CNN
+F 1 "Push" H 7200 3700 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 7200 3850 50  0001 C CNN
+F 3 "" H 7200 3850 50  0000 C CNN
+	1    7200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D3
+U 1 1 5B894674
+P 4500 3600
+F 0 "D3" H 4500 3700 50  0000 C CNN
+F 1 "D" H 4500 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 4500 3600 50  0001 C CNN
+F 3 "" H 4500 3600 50  0000 C CNN
+	1    4500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D6
+U 1 1 5B89467A
+P 5150 3600
+F 0 "D6" H 5150 3700 50  0000 C CNN
+F 1 "D" H 5150 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 5150 3600 50  0001 C CNN
+F 3 "" H 5150 3600 50  0000 C CNN
+	1    5150 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D9
+U 1 1 5B894680
+P 5800 3600
+F 0 "D9" H 5800 3700 50  0000 C CNN
+F 1 "D" H 5800 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 5800 3600 50  0001 C CNN
+F 3 "" H 5800 3600 50  0000 C CNN
+	1    5800 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D12
+U 1 1 5B894686
+P 6450 3600
+F 0 "D12" H 6450 3700 50  0000 C CNN
+F 1 "D" H 6450 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 6450 3600 50  0001 C CNN
+F 3 "" H 6450 3600 50  0000 C CNN
+	1    6450 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D15
+U 1 1 5B89468C
+P 7100 3600
+F 0 "D15" H 7100 3700 50  0000 C CNN
+F 1 "D" H 7100 3500 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 7100 3600 50  0001 C CNN
+F 3 "" H 7100 3600 50  0000 C CNN
+	1    7100 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 3450 7100 3450
+Connection ~ 4500 3450
+Connection ~ 5150 3450
+Connection ~ 5800 3450
+Connection ~ 6450 3450
+Text GLabel 4700 4200 3    60   Output ~ 0
+COL1
+Text GLabel 5350 4200 3    60   Output ~ 0
+COL2
+Text GLabel 6000 4200 3    60   Output ~ 0
+COL3
+Text GLabel 6650 4200 3    60   Output ~ 0
+COL4
+Text GLabel 7300 4200 3    60   Output ~ 0
+COL5
+Wire Wire Line
+	7300 3950 7300 4200
+Wire Wire Line
+	6650 3950 6650 4200
+Wire Wire Line
+	6000 3950 6000 4200
+Wire Wire Line
+	5350 3950 5350 4200
+Wire Wire Line
+	4700 3950 4700 4200
+Text GLabel 1200 750  0    60   Input ~ 0
+ROW4
+$Comp
+L SW_Push_45deg SW26
+U 1 1 5B8946EE
+P 1700 1150
+F 0 "SW26" H 1820 1190 50  0000 L CNN
+F 1 "Push" H 1700 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 1700 1150 50  0001 C CNN
+F 3 "" H 1700 1150 50  0000 C CNN
+	1    1700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW30
+U 1 1 5B8946F4
+P 2350 1150
+F 0 "SW30" H 2470 1190 50  0000 L CNN
+F 1 "Push" H 2350 1000 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 2350 1150 50  0001 C CNN
+F 3 "" H 2350 1150 50  0000 C CNN
+	1    2350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D25
+U 1 1 5B89470C
+P 1600 900
+F 0 "D25" H 1600 1000 50  0000 C CNN
+F 1 "D" H 1600 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 1600 900 50  0001 C CNN
+F 3 "" H 1600 900 50  0000 C CNN
+	1    1600 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D29
+U 1 1 5B894712
+P 2250 900
+F 0 "D29" H 2250 1000 50  0000 C CNN
+F 1 "D" H 2250 800 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 2250 900 50  0001 C CNN
+F 3 "" H 2250 900 50  0000 C CNN
+	1    2250 900 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1600 750 
+Connection ~ 2250 750 
+Text GLabel 1800 1500 3    60   Output ~ 0
+COL1
+Text GLabel 2450 1500 3    60   Output ~ 0
+COL2
+Wire Wire Line
+	2450 1250 2450 1500
+Wire Wire Line
+	1800 1250 1800 1500
+Wire Wire Line
+	1200 750  2250 750 
+$Comp
+L Feather_Bluefruit_LE U1
+U 1 1 5B898CB7
+P 1750 6400
+F 0 "U1" H 2150 5400 60  0000 C CNN
+F 1 "Feather_Bluefruit_LE" V 1750 6400 60  0000 C CNN
+F 2 "atreusAir:Feather_Bluefruit" H 1750 6400 60  0001 C CNN
+F 3 "" H 1750 6400 60  0001 C CNN
+	1    1750 6400
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 6350 2    55   Input ~ 0
+COL6
+Text GLabel 2500 6450 2    55   Input ~ 0
+COL7
+Text GLabel 2500 6550 2    55   Input ~ 0
+COL8
+Text GLabel 2500 6650 2    55   Input ~ 0
+COL9
+Text GLabel 2500 6750 2    55   Input ~ 0
+COL10
+Text GLabel 1000 6050 0    55   Input ~ 0
+COL1
+Text GLabel 1000 6150 0    55   Input ~ 0
+COL2
+Text GLabel 1000 6250 0    55   Input ~ 0
+COL3
+Text GLabel 1000 6350 0    55   Input ~ 0
+COL4
+Text GLabel 1000 6450 0    55   Input ~ 0
+COL5
+Text GLabel 1000 6550 0    55   Output ~ 0
+ROW1
+Text GLabel 1000 6950 0    55   Output ~ 0
+ROW3
+Text GLabel 2500 6850 2    55   Output ~ 0
+ROW0
+Text GLabel 2500 6950 2    55   Output ~ 0
+ROW2
+$Comp
+L GND #PWR01
+U 1 1 5B8A5396
+P 3700 6850
+F 0 "#PWR01" H 3700 6600 50  0001 C CNN
+F 1 "GND" H 3700 6700 50  0000 C CNN
+F 2 "" H 3700 6850 50  0000 C CNN
+F 3 "" H 3700 6850 50  0000 C CNN
+	1    3700 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5B8A5A88
+P 3700 6600
+F 0 "R1" V 3780 6600 50  0000 C CNN
+F 1 "1k" V 3700 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3630 6600 50  0001 C CNN
+F 3 "" H 3700 6600 50  0000 C CNN
+	1    3700 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6250 3700 6450
+Wire Wire Line
+	2500 6150 3100 6150
+$Comp
+L SW_Push_SPDT SW1
+U 1 1 5B8A64C1
+P 3300 6150
+F 0 "SW1" H 3300 6320 50  0000 C CNN
+F 1 "POWER" H 3300 5950 50  0000 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPDT_PCM12" H 3300 6150 50  0001 C CNN
+F 3 "" H 3300 6150 50  0000 C CNN
+	1    3300 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6250 3700 6250
+Text GLabel 1000 7050 0    55   Output ~ 0
+ROW4
+Text GLabel 11000 4200 3    60   Output ~ 0
+COL10
+Text GLabel 7800 4800 0    60   Input ~ 0
+ROW4
+$Comp
+L SW_Push_45deg SW39
+U 1 1 5B8AFEAF
+P 8300 5200
+F 0 "SW39" H 8420 5240 50  0000 L CNN
+F 1 "Push" H 8300 5050 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 8300 5200 50  0001 C CNN
+F 3 "" H 8300 5200 50  0000 C CNN
+	1    8300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW40
+U 1 1 5B8AFEB5
+P 8950 5200
+F 0 "SW40" H 9070 5240 50  0000 L CNN
+F 1 "Push" H 8950 5050 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 8950 5200 50  0001 C CNN
+F 3 "" H 8950 5200 50  0000 C CNN
+	1    8950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW41
+U 1 1 5B8AFEBB
+P 9600 5200
+F 0 "SW41" H 9720 5240 50  0000 L CNN
+F 1 "Push" H 9600 5050 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 9600 5200 50  0001 C CNN
+F 3 "" H 9600 5200 50  0000 C CNN
+	1    9600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW42
+U 1 1 5B8AFEC1
+P 10250 5200
+F 0 "SW42" H 10370 5240 50  0000 L CNN
+F 1 "Push" H 10250 5050 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 10250 5200 50  0001 C CNN
+F 3 "" H 10250 5200 50  0000 C CNN
+	1    10250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW43
+U 1 1 5B8AFEC7
+P 10900 5200
+F 0 "SW43" H 11020 5240 50  0000 L CNN
+F 1 "Push" H 10900 5050 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 10900 5200 50  0001 C CNN
+F 3 "" H 10900 5200 50  0000 C CNN
+	1    10900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D38
+U 1 1 5B8AFECD
+P 8200 4950
+F 0 "D38" H 8200 5050 50  0000 C CNN
+F 1 "D" H 8200 4850 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 8200 4950 50  0001 C CNN
+F 3 "" H 8200 4950 50  0000 C CNN
+	1    8200 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D39
+U 1 1 5B8AFED3
+P 8850 4950
+F 0 "D39" H 8850 5050 50  0000 C CNN
+F 1 "D" H 8850 4850 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 8850 4950 50  0001 C CNN
+F 3 "" H 8850 4950 50  0000 C CNN
+	1    8850 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D40
+U 1 1 5B8AFED9
+P 9500 4950
+F 0 "D40" H 9500 5050 50  0000 C CNN
+F 1 "D" H 9500 4850 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 9500 4950 50  0001 C CNN
+F 3 "" H 9500 4950 50  0000 C CNN
+	1    9500 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D41
+U 1 1 5B8AFEDF
+P 10150 4950
+F 0 "D41" H 10150 5050 50  0000 C CNN
+F 1 "D" H 10150 4850 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 10150 4950 50  0001 C CNN
+F 3 "" H 10150 4950 50  0000 C CNN
+	1    10150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D42
+U 1 1 5B8AFEE5
+P 10800 4950
+F 0 "D42" H 10800 5050 50  0000 C CNN
+F 1 "D" H 10800 4850 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 10800 4950 50  0001 C CNN
+F 3 "" H 10800 4950 50  0000 C CNN
+	1    10800 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 4800 10800 4800
+Connection ~ 8200 4800
+Connection ~ 8850 4800
+Connection ~ 9500 4800
+Connection ~ 10150 4800
+Text GLabel 8400 5550 3    60   Output ~ 0
+COL6
+Text GLabel 9050 5550 3    60   Output ~ 0
+COL7
+Text GLabel 9700 5550 3    60   Output ~ 0
+COL8
+Text GLabel 10350 5550 3    60   Output ~ 0
+COL9
+Wire Wire Line
+	11000 5300 11000 5550
+Wire Wire Line
+	10350 5300 10350 5550
+Wire Wire Line
+	9700 5300 9700 5550
+Wire Wire Line
+	9050 5300 9050 5550
+Wire Wire Line
+	8400 5300 8400 5550
+Text GLabel 4100 4800 0    60   Input ~ 0
+ROW3
+$Comp
+L SW_Push_45deg SW34
+U 1 1 5B8AFEFA
+P 4600 5200
+F 0 "SW34" H 4720 5240 50  0000 L CNN
+F 1 "Push" H 4600 5050 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 4600 5200 50  0001 C CNN
+F 3 "" H 4600 5200 50  0000 C CNN
+	1    4600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW35
+U 1 1 5B8AFF00
+P 5250 5200
+F 0 "SW35" H 5370 5240 50  0000 L CNN
+F 1 "Push" H 5250 5050 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 5250 5200 50  0001 C CNN
+F 3 "" H 5250 5200 50  0000 C CNN
+	1    5250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW36
+U 1 1 5B8AFF06
+P 5900 5200
+F 0 "SW36" H 6020 5240 50  0000 L CNN
+F 1 "Push" H 5900 5050 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 5900 5200 50  0001 C CNN
+F 3 "" H 5900 5200 50  0000 C CNN
+	1    5900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW37
+U 1 1 5B8AFF0C
+P 6550 5200
+F 0 "SW37" H 6670 5240 50  0000 L CNN
+F 1 "Push" H 6550 5050 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 6550 5200 50  0001 C CNN
+F 3 "" H 6550 5200 50  0000 C CNN
+	1    6550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_45deg SW38
+U 1 1 5B8AFF12
+P 7200 5200
+F 0 "SW38" H 7320 5240 50  0000 L CNN
+F 1 "Push" H 7200 5050 50  0000 C CNN
+F 2 "atreusAir:ASwitch" H 7200 5200 50  0001 C CNN
+F 3 "" H 7200 5200 50  0000 C CNN
+	1    7200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D33
+U 1 1 5B8AFF18
+P 4500 4950
+F 0 "D33" H 4500 5050 50  0000 C CNN
+F 1 "D" H 4500 4850 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 4500 4950 50  0001 C CNN
+F 3 "" H 4500 4950 50  0000 C CNN
+	1    4500 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D34
+U 1 1 5B8AFF1E
+P 5150 4950
+F 0 "D34" H 5150 5050 50  0000 C CNN
+F 1 "D" H 5150 4850 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 5150 4950 50  0001 C CNN
+F 3 "" H 5150 4950 50  0000 C CNN
+	1    5150 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D35
+U 1 1 5B8AFF24
+P 5800 4950
+F 0 "D35" H 5800 5050 50  0000 C CNN
+F 1 "D" H 5800 4850 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 5800 4950 50  0001 C CNN
+F 3 "" H 5800 4950 50  0000 C CNN
+	1    5800 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D36
+U 1 1 5B8AFF2A
+P 6450 4950
+F 0 "D36" H 6450 5050 50  0000 C CNN
+F 1 "D" H 6450 4850 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 6450 4950 50  0001 C CNN
+F 3 "" H 6450 4950 50  0000 C CNN
+	1    6450 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D37
+U 1 1 5B8AFF30
+P 7100 4950
+F 0 "D37" H 7100 5050 50  0000 C CNN
+F 1 "D" H 7100 4850 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 7100 4950 50  0001 C CNN
+F 3 "" H 7100 4950 50  0000 C CNN
+	1    7100 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 4800 7100 4800
+Connection ~ 4500 4800
+Connection ~ 5150 4800
+Connection ~ 5800 4800
+Connection ~ 6450 4800
+Text GLabel 4700 5550 3    60   Output ~ 0
+COL1
+Text GLabel 5350 5550 3    60   Output ~ 0
+COL2
+Text GLabel 6000 5550 3    60   Output ~ 0
+COL3
+Text GLabel 6650 5550 3    60   Output ~ 0
+COL4
+Text GLabel 7300 5550 3    60   Output ~ 0
+COL5
+Wire Wire Line
+	7300 5300 7300 5550
+Wire Wire Line
+	6650 5300 6650 5550
+Wire Wire Line
+	6000 5300 6000 5550
+Wire Wire Line
+	5350 5300 5350 5550
+Wire Wire Line
+	4700 5300 4700 5550
+Text GLabel 11000 5550 3    60   Output ~ 0
+COL10
+Wire Wire Line
+	3700 6750 3700 6850
+NoConn ~ 3500 6050
+NoConn ~ 1000 5750
+NoConn ~ 2500 6250
+NoConn ~ 1000 6750
+NoConn ~ 1000 6650
+NoConn ~ 1000 7150
+NoConn ~ 1550 7500
+NoConn ~ 1650 7500
+NoConn ~ 1750 7500
+NoConn ~ 1000 6850
+NoConn ~ 1000 5850
+NoConn ~ 1000 5650
+$Comp
+L GND #PWR02
+U 1 1 5B9CD02C
+P 650 5950
+F 0 "#PWR02" H 650 5700 50  0001 C CNN
+F 1 "GND" H 650 5800 50  0000 C CNN
+F 2 "" H 650 5950 50  0000 C CNN
+F 3 "" H 650 5950 50  0000 C CNN
+	1    650  5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  5950 1000 5950
+Text GLabel 1100 3800 0    55   Input ~ 0
+LEDR
+Text GLabel 1100 4000 0    55   Input ~ 0
+LEDG
+$Comp
+L GND #PWR03
+U 1 1 5BF50A4D
+P 2300 4100
+F 0 "#PWR03" H 2300 3850 50  0001 C CNN
+F 1 "GND" H 2300 3950 50  0000 C CNN
+F 2 "" H 2300 4100 50  0000 C CNN
+F 3 "" H 2300 4100 50  0000 C CNN
+	1    2300 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 7050 2    55   Output ~ 0
+LEDR
+Text GLabel 2500 7150 2    55   Output ~ 0
+LEDG
+Text GLabel 4750 4850 0    55   Output ~ 0
++
+Text GLabel 2500 6050 2    55   Output ~ 0
+VLED
+$Comp
+L LED_Dual_AACC D43
+U 1 1 5C14C150
+P 1850 3900
+F 0 "D43" H 1850 4125 50  0000 C CNN
+F 1 "18-225/R6G6C-A01/3T" H 1850 4250 50  0000 C CNN
+F 2 "atreusAir:R6G6C-A01" H 1880 3900 50  0001 C CNN
+F 3 "" H 1880 3900 50  0000 C CNN
+	1    1850 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 3800 2300 3800
+Wire Wire Line
+	2300 3800 2300 4100
+Wire Wire Line
+	2150 4000 2300 4000
+Connection ~ 2300 4000
+$Comp
+L R R2
+U 1 1 5C14C94E
+P 1350 3800
+F 0 "R2" V 1430 3800 50  0000 C CNN
+F 1 "100" V 1350 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1280 3800 50  0001 C CNN
+F 3 "" H 1350 3800 50  0000 C CNN
+	1    1350 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5C14CA3D
+P 1350 4000
+F 0 "R3" V 1430 4000 50  0000 C CNN
+F 1 "100" V 1350 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1280 4000 50  0001 C CNN
+F 3 "" H 1350 4000 50  0000 C CNN
+	1    1350 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 4000 1550 4000
+Wire Wire Line
+	1500 3800 1550 3800
+Wire Wire Line
+	1100 3800 1200 3800
+Wire Wire Line
+	1100 4000 1200 4000
+$EndSCHEMATC
