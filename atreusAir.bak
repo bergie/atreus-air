@@ -1316,9 +1316,9 @@ F 3 "" H 650 5950 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	650  5950 1000 5950
-Text GLabel 4750 6650 0    55   Input ~ 0
-LEDR
 Text GLabel 4750 6850 0    55   Input ~ 0
+LEDR
+Text GLabel 4750 6650 0    55   Input ~ 0
 LEDG
 $Comp
 L GND #PWR03
